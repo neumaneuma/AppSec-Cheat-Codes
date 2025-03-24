@@ -1,6 +1,6 @@
 [project]
 name = "appseccheat-codes"
-version = "2.0.0"
+version = "2.0.1"
 description = "Dev environment requirements for AppSec Cheat Codes"
 readme = "README.md"
 requires-python = ">=3.13"
@@ -11,6 +11,7 @@ dependencies = [
     "fastapi==0.115.12",
     "types-requests==2.32.0.20250306",
     "types-peewee==3.17.9.20250308",
+    "types-boto3==1.37.19",
     "bcrypt==4.3.0",
     "dnspython==2.7.0",
     "boto3==1.37.19",
