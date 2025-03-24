@@ -50,7 +50,7 @@ requires-dist = [
     { name = "mypy", specifier = "==1.15.0" },
     { name = "pre-commit", specifier = "==4.2.0" },
     { name = "requests", specifier = "==2.32.3" },
-    { name = "types-boto3", specifier = ">=1.37.19" },
+    { name = "types-boto3", specifier = "==1.37.19" },
     { name = "types-peewee", specifier = "==3.17.9.20250308" },
     { name = "types-requests", specifier = "==2.32.0.20250306" },
 ]
