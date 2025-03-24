@@ -77,6 +77,10 @@ resource "aws_s3_bucket_lifecycle_configuration" "logs_cleanup" {
     id     = "cleanup"
     status = "Enabled"
 
+    filter {
+      prefix = "" # empty prefix means apply to all objects
+    }
+
     expiration {
       days = 30
     }
