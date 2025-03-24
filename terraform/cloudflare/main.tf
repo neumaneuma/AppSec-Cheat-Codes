@@ -20,7 +20,6 @@ data "terraform_remote_state" "aws" {
 }
 
 data "cloudflare_zone" "domain" {
-  # TODO cloudflare has a bug so this doesn't work yet
   filter = {
     name = var.domain_name
   }
