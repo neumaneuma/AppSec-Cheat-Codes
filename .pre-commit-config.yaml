@@ -8,7 +8,7 @@ repos:
     -   id: check-added-large-files
 
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.9.3
+    rev: v0.11.2
     hooks:
     -   id: ruff
         args: [--fix, --unsafe-fixes]
@@ -21,13 +21,13 @@ repos:
         types_or: [javascript, jsx, ts, tsx, json, css, markdown, vue]
 
 -   repo: https://github.com/oxc-project/mirrors-oxlint
-    rev: v0.15.8
+    rev: v0.16.2
     hooks:
     -   id: oxlint
         types_or: [javascript, jsx, ts, tsx, vue]
 
 -   repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.97.0
+    rev: v1.97.4
     hooks:
     -   id: terraform_fmt
         args: [--hook-config=--retry-once-with-cleanup=true]
