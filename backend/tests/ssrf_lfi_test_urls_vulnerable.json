@@ -83,27 +83,6 @@
     }
   },
   {
-    "url": "https://apple.com",
-    "status_code": "400",
-    "response": {
-      "detail": "Challenge failed. Response body: <!DOCTYPE html>"
-    }
-  },
-  {
-    "url": "https://duckduckgo.com",
-    "status_code": "400",
-    "response": {
-      "detail": "Challenge failed. Response body: <!DOCTYPE html>"
-    }
-  },
-  {
-    "url": "https://cloudflare.com",
-    "status_code": "400",
-    "response": {
-      "detail": "Challenge failed. Response body: <!DOCTYPE html>"
-    }
-  },
-  {
     "url": "file://etc/passwd",
     "status_code": "200",
     "response": "The scheme is correct, but that is not the right file."

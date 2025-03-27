@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "main-state-e58c7d60-1ee2-0cd7-f39c-ebc5fedb9351"
-    key            = "state/aws.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "main-state-locks"
+    bucket       = "main-state-e58c7d60-1ee2-0cd7-f39c-ebc5fedb9351"
+    key          = "state/aws.tfstate"
+    region       = "us-east-1"
+    use_lockfile = true
   }
 }
 

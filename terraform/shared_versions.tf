@@ -5,15 +5,15 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "5.84.0"
+      version = "5.92.0"
     }
     cloudflare = {
       source  = "cloudflare/cloudflare"
-      version = "4.51.0"
+      version = "5.2.0"
     }
     random = {
       source  = "hashicorp/random"
-      version = "3.6.3"
+      version = "3.7.1"
     }
     http = {
       source  = "hashicorp/http"

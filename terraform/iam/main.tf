@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "iam-state-e58c7d60-1ee2-0cd7-f39c-ebc5fedb9351"
-    key            = "state/iam.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "iam-state-locks"
+    bucket       = "iam-state-e58c7d60-1ee2-0cd7-f39c-ebc5fedb9351"
+    key          = "state/iam.tfstate"
+    region       = "us-east-1"
+    use_lockfile = true
   }
 }
 
@@ -52,9 +52,6 @@ data "aws_iam_policy_document" "permissions_policy" {
       "cloudtrail:GetTrailStatus",
       "cloudtrail:ListTags",
       "cloudtrail:StartLogging",
-      "dynamodb:DeleteItem",
-      "dynamodb:GetItem",
-      "dynamodb:PutItem",
       "ec2:AllocateAddress",
       "ec2:AssociateAddress",
       "ec2:AssociateRouteTable",
@@ -63,6 +60,7 @@ data "aws_iam_policy_document" "permissions_policy" {
       "ec2:AuthorizeSecurityGroupIngress",
       "ec2:CreateInternetGateway",
       "ec2:CreateLaunchTemplate",
+      "ec2:CreateLaunchTemplateVersion",
       "ec2:CreateRoute",
       "ec2:CreateRouteTable",
       "ec2:CreateSecurityGroup",
