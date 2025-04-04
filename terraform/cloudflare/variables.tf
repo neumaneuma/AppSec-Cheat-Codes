@@ -5,10 +5,10 @@ variable "region" {
 
 variable "domain_name" {
   type    = string
-  default = "ctf.neumaneuma.com"
+  default = "neumaneuma.com"
 }
 
-variable "api_domain_name" {
+variable "api_subdomain_name" {
   type    = string
   default = "api.ctf.neumaneuma.com"
 }

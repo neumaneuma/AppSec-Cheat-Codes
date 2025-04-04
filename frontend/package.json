@@ -27,6 +27,6 @@
     "vite": "^6.2.5",
     "@cloudflare/workers-types": "^4.20250404.0",
     "npm-run-all2": "^7.0.2",
-    "wrangler": "^4.7.1"
+    "wrangler": "^4.7.2"
   }
 }

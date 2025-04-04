@@ -27,7 +27,7 @@ data "cloudflare_zone" "domain" {
 
 resource "cloudflare_dns_record" "backend" {
   zone_id = data.cloudflare_zone.domain.zone_id
-  name    = var.api_domain_name
+  name    = var.api_subdomain_name
   content = data.terraform_remote_state.aws.outputs.ec2_public_ip_address
   type    = "A"
   proxied = true
