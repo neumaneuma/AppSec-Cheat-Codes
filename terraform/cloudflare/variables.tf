@@ -10,5 +10,5 @@ variable "domain_name" {
 
 variable "api_subdomain_name" {
   type    = string
-  default = "api.ctf.neumaneuma.com"
+  default = "api-ctf.neumaneuma.com"
 }

@@ -10,7 +10,7 @@ function loadConfig(): Config {
   const isProdDeploy = import.meta.env.VITE_PROD_DEPLOY === 'true'
 
   if (isProdDeploy) {
-    return { API_BASE_URL: 'https://api.ctf.neumaneuma.com' }
+    return { API_BASE_URL: 'https://api-ctf.neumaneuma.com' }
   }
 
   // Default to localhost if not deploying to prod

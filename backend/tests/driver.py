@@ -12,7 +12,7 @@ import urllib3
 from backend.passphrases import Passphrases
 
 LOCAL_SERVER_URL = "http://127.0.0.1:12301"
-REMOTE_SERVER_URL = "https://api.ctf.neumaneuma.com"
+REMOTE_SERVER_URL = "https://api-ctf.neumaneuma.com"
 external_url_pattern = re.compile(
     r"^Challenge failed\. Response body: <!DOCTYPE html>.*"
 )

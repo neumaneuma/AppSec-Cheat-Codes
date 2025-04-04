@@ -13,7 +13,7 @@ variable "domain_name" {
 variable "api_domain_name" {
   description = "API domain name"
   type        = string
-  default     = "api.ctf.neumaneuma.com"
+  default     = "api-ctf.neumaneuma.com"
 }
 
 variable "cloudflare_api_token" {
