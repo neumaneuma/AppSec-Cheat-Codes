@@ -43,16 +43,16 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "bcrypt", specifier = "==4.3.0" },
-    { name = "boto3", specifier = "==1.37.19" },
-    { name = "dnspython", specifier = "==2.7.0" },
-    { name = "fastapi", specifier = "==0.115.12" },
-    { name = "mypy", specifier = "==1.15.0" },
-    { name = "pre-commit", specifier = "==4.2.0" },
-    { name = "requests", specifier = "==2.32.3" },
-    { name = "types-boto3", specifier = "==1.37.19" },
-    { name = "types-peewee", specifier = "==3.17.9.20250308" },
-    { name = "types-requests", specifier = "==2.32.0.20250306" },
+    { name = "bcrypt", specifier = ">=4.3.0" },
+    { name = "boto3", specifier = ">=1.37.19" },
+    { name = "dnspython", specifier = ">=2.7.0" },
+    { name = "fastapi", specifier = ">=0.115.12" },
+    { name = "mypy", specifier = ">=1.15.0" },
+    { name = "pre-commit", specifier = ">=4.2.0" },
+    { name = "requests", specifier = ">=2.32.3" },
+    { name = "types-boto3", specifier = ">=1.37.19" },
+    { name = "types-peewee", specifier = ">=3.17.9.20250308" },
+    { name = "types-requests", specifier = ">=2.32.0.20250306" },
 ]
 
 [[package]]

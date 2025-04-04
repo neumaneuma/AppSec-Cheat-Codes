@@ -2,7 +2,7 @@
 
 A CTF web app designed to teach software developers application security by showcasing what vulnerable code looks like, how to write code to exploit the vulnerability, and how to write code to patch the vulnerability.
 
-You can access the publicly available version [here](https://appseccheat.codes), or you can run it locally.
+You can access the publicly available version [here](https://ctf.neumaneuma.com), or you can run it locally.
 
 ## How to run webapp locally
 

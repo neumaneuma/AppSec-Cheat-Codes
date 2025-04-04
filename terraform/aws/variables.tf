@@ -7,13 +7,13 @@ variable "region" {
 variable "domain_name" {
   description = "Domain name"
   type        = string
-  default     = "appseccheat.codes"
+  default     = "ctf.neumaneuma.com"
 }
 
 variable "api_domain_name" {
   description = "API domain name"
   type        = string
-  default     = "api.appseccheat.codes"
+  default     = "api.ctf.neumaneuma.com"
 }
 
 variable "cloudflare_api_token" {
@@ -26,7 +26,7 @@ variable "cloudflare_api_token" {
 variable "docker_hub_repo" {
   description = "Docker Hub repository identifier"
   type        = string
-  default     = "neumaneuma/appseccheat.codes"
+  default     = "neumaneuma/appseccheatcodes"
 }
 
 variable "db_name" {
