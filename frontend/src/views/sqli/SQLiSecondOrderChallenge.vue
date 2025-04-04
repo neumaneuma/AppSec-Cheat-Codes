@@ -6,12 +6,12 @@
       :shouldShowIntroduction="shouldShowIntroduction"
       :vulnerabilitySourceCode="{
         fileLink:
-          'https://github.com/neumaneuma/appseccheat.codes/blob/main/backend/vulnerabilities/sqli_second_order.py',
+          'https://github.com/neumaneuma/AppSec-Cheat-Codes/blob/main/backend/vulnerabilities/sqli_second_order.py',
         snippet: sqliSecondOrderVulnerableSnippet,
       }"
       :exploitSourceCode="{
         fileLink:
-          'https://github.com/neumaneuma/appseccheat.codes/blob/main/exploits/sqli_second_order.py',
+          'https://github.com/neumaneuma/AppSec-Cheat-Codes/blob/main/exploits/sqli_second_order.py',
         snippet: sqliSecondOrderExploitSnippet,
       }"
     >

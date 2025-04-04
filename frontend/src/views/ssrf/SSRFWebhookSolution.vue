@@ -18,7 +18,7 @@ import SSRFGenericDefense from './SSRFGenericDefense.vue'
 
 const patchedSourceCode = {
   fileLink:
-    'https://github.com/neumaneuma/appseccheat.codes/blob/main/backend/patches/ssrf_webhook.py',
+    'https://github.com/neumaneuma/AppSec-Cheat-Codes/blob/main/backend/patches/ssrf_webhook.py',
   snippet: ssrfWebhookPatchedSnippet,
 }
 </script>

@@ -6,12 +6,12 @@
       :shouldShowIntroduction="shouldShowIntroduction"
       :vulnerabilitySourceCode="{
         fileLink:
-          'https://github.com/neumaneuma/appseccheat.codes/blob/main/backend/vulnerabilities/sqli_login_bypass.py',
+          'https://github.com/neumaneuma/AppSec-Cheat-Codes/blob/main/backend/vulnerabilities/sqli_login_bypass.py',
         snippet: sqliLoginBypassVulnerableSnippet,
       }"
       :exploitSourceCode="{
         fileLink:
-          'https://github.com/neumaneuma/appseccheat.codes/blob/main/exploits/sqli_login_bypass.py',
+          'https://github.com/neumaneuma/AppSec-Cheat-Codes/blob/main/exploits/sqli_login_bypass.py',
         snippet: sqliLoginBypassExploitSnippet,
       }"
     >
