@@ -6,12 +6,12 @@
       :shouldShowIntroduction="shouldShowIntroduction"
       :vulnerabilitySourceCode="{
         fileLink:
-          'https://github.com/neumaneuma/appseccheat.codes/blob/main/backend/vulnerabilities/ssrf_webhook.py',
+          'https://github.com/neumaneuma/AppSec-Cheat-Codes/blob/main/backend/vulnerabilities/ssrf_webhook.py',
         snippet: ssrfWebhookVulnerableSnippet,
       }"
       :exploitSourceCode="{
         fileLink:
-          'https://github.com/neumaneuma/appseccheat.codes/blob/main/exploits/ssrf_webhook.py',
+          'https://github.com/neumaneuma/AppSec-Cheat-Codes/blob/main/exploits/ssrf_webhook.py',
         snippet: ssrfWebhookExploitSnippet,
       }"
     >

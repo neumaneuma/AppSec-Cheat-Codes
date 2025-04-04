@@ -1,5 +1,5 @@
 [project]
-name = "appseccheat-codes"
+name = "appseccheatcodes"
 version = "2.0.1"
 description = "Dev environment requirements for AppSec Cheat Codes"
 readme = "README.md"

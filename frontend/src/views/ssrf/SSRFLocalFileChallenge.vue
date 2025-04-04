@@ -6,11 +6,11 @@
       :shouldShowIntroduction="shouldShowIntroduction"
       :vulnerabilitySourceCode="{
         fileLink:
-          'https://github.com/neumaneuma/appseccheat.codes/blob/main/backend/vulnerabilities/ssrf_lfi.py',
+          'https://github.com/neumaneuma/AppSec-Cheat-Codes/blob/main/backend/vulnerabilities/ssrf_lfi.py',
         snippet: ssrfLocalFileInclusionVulnerableSnippet,
       }"
       :exploitSourceCode="{
-        fileLink: 'https://github.com/neumaneuma/appseccheat.codes/blob/main/exploits/ssrf_lfi.py',
+        fileLink: 'https://github.com/neumaneuma/AppSec-Cheat-Codes/blob/main/exploits/ssrf_lfi.py',
         snippet: ssrfLocalFileInclusionExploitSnippet,
       }"
     >

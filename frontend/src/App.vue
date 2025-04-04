@@ -10,7 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
       <div class="right-nav">
         <RouterLink to="/about" class="nav-link">About</RouterLink>
-        <a href="https://github.com/neumaneuma/appseccheat.codes" class="nav-link">GitHub</a>
+        <a href="https://github.com/neumaneuma/AppSec-Cheat-Codes" class="nav-link">GitHub</a>
       </div>
     </nav>
   </header>

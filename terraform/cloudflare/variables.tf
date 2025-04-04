@@ -5,10 +5,10 @@ variable "region" {
 
 variable "domain_name" {
   type    = string
-  default = "appseccheat.codes"
+  default = "neumaneuma.com"
 }
 
-variable "api_domain_name" {
+variable "api_subdomain_name" {
   type    = string
-  default = "api.appseccheat.codes"
+  default = "api-ctf.neumaneuma.com"
 }

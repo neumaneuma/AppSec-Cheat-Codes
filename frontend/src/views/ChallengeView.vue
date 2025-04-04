@@ -62,7 +62,7 @@
               And finally, as if this wall of text wasn't long enough, there is even more to it. If
               you want to run the webapp locally just follow the instructions on this
               <a
-                href="https://github.com/neumaneuma/appseccheat.codes/main/README.md"
+                href="https://github.com/neumaneuma/AppSec-Cheat-Codes/main/README.md"
                 target="_blank"
                 rel="noopener"
                 class="link"
@@ -196,7 +196,7 @@
           <p class="exploit-text">
             View the
             <a
-              href="https://github.com/neumaneuma/appseccheat.codes/main/exploits/README.md"
+              href="https://github.com/neumaneuma/AppSec-Cheat-Codes/main/exploits/README.md"
               target="_blank"
               rel="noopener"
               class="exploit-link"
